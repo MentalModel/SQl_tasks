@@ -1,4 +1,4 @@
-USE [Alexander Dobrunov]
+USE [MentalModel]
 
 IF OBJECT_ID('dbo.Punishment', 'U') IS NOT NULL
   DROP TABLE dbo.Punishment
@@ -30,4 +30,4 @@ SELECT TOP 1000 [IDDriver]
       ,[Fine]
       ,[SumOFFine]
       ,[HaveBeenPayed]
-  FROM [Alexander Dobrunov].[dbo].[Punishment]
+  FROM [MentalModel].[dbo].[Punishment]

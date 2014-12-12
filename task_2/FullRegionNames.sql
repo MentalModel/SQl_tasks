@@ -1,4 +1,4 @@
-USE [Alexander Dobrunov]
+USE [MentalModel]
 
 IF OBJECT_ID('dbo.RegionNames', 'U') IS NOT NULL
   DROP TABLE dbo.RegionNames
@@ -143,4 +143,4 @@ GO
 
 SELECT TOP 1000 [FullNameOfRegion]
       ,[CodeOfRegion]
-  FROM [Alexander Dobrunov].[dbo].[RegionNames]
+  FROM [MentalModel].[dbo].[RegionNames]

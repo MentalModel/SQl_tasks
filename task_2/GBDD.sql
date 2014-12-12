@@ -1,4 +1,4 @@
-USE [Alexander Dobrunov]
+USE [MentalModel]
 
 IF OBJECT_ID('dbo.GBDDInfo', 'U') IS NOT NULL
   DROP TABLE dbo.GBDDInfo
@@ -26,4 +26,4 @@ GO
 
 SELECT TOP 1000 [ID_GBDD]
       ,[RegionCode]
-  FROM [Alexander Dobrunov].[dbo].[GBDDInfo]
+  FROM [MentalModel].[dbo].[GBDDInfo]

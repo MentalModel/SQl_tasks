@@ -1,4 +1,4 @@
-USE [Alexander Dobrunov]
+USE [MentalModel]
 
 IF OBJECT_ID('dbo.DriverInformation', 'U') IS NOT NULL
   DROP TABLE dbo.DriverInformation
@@ -48,7 +48,7 @@ GO
 SELECT TOP 1000 [LastName]
       ,[GovernmentNumber]
       ,[IDDriver]
-  FROM [Alexander Dobrunov].[dbo].[DriverInformation]
+  FROM [MentalModel].[dbo].[DriverInformation]
   ORDER BY [IDDriver]
 
   SELECT GovernmentNumber from [dbo].[DriverInformation]

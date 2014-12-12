@@ -1,4 +1,4 @@
-USE [Alexander Dobrunov]
+USE [MentalModel]
 
 IF OBJECT_ID('dbo.ComeIN', 'U') IS NOT NULL
   DROP TABLE dbo.ComeIN
@@ -55,5 +55,5 @@ GO
 SELECT TOP 1000 [DepartureTimeIN]
       ,[IDGBDD_IN]
       ,[DriverID]
-FROM [Alexander Dobrunov].[dbo].[ComeIN]
+FROM [MentalModel].[dbo].[ComeIN]
 GO

@@ -1,4 +1,4 @@
-USE [Alexander Dobrunov]
+USE [MentalModel]
 
 IF OBJECT_ID('dbo.ComeOUT', 'U') IS NOT NULL
   DROP TABLE dbo.ComeOUT
@@ -56,5 +56,5 @@ GO
 SELECT TOP 1000 [DepartureTimeOUT]
       ,[IDGBDD_OUT]
       ,[DriverID]
-FROM [Alexander Dobrunov].[dbo].[ComeOUT]
+FROM [MentalModel].[dbo].[ComeOUT]
 GO

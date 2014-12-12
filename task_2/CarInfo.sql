@@ -1,4 +1,4 @@
-USE [Alexander Dobrunov]
+USE [MentalModel]
 
 IF OBJECT_ID('dbo.CarInformation', 'U') IS NOT NULL
   DROP TABLE dbo.CarInformation
@@ -42,4 +42,4 @@ GO
 SELECT TOP 1000 [Model]
       ,[Colour]
       ,[IDDriver]
-  FROM [Alexander Dobrunov].[dbo].[CarInformation]
+  FROM [MentalModel].[dbo].[CarInformation]

@@ -1,4 +1,4 @@
-USE [Alexander Dobrunov]
+USE [MentalModel]
 
 /*----------------------------------FULL TOTAL TABLE------------------------------------------- */
 SELECT	u.DriverID, q.LastName, q.GovernmentNumber, c.Model, c.Colour, u.DepartureTimeIN, 
